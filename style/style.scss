@@ -67,6 +67,36 @@ body{
                     line-height: .6rem;
                 }
             }
+            ul{
+                li{
+                    height: .8rem;
+                    padding: .1rem .2rem;
+                    margin: .6rem 0;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: solid #ccc .02rem;
+                    span{
+                        width: .4rem;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    input{
+                        border: none;
+                        outline: none;
+                        padding-left: .2rem;
+                    }
+                }
+            }
+            .btn{
+                display: block;
+                height: 1rem;
+                line-height: 1rem;
+                background: #2FBA77;
+                color: #fff;
+                text-align: center;
+                border-radius: .1rem;
+            }
         }
     }
 }

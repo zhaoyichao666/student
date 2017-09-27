@@ -82,3 +82,36 @@ body {
   font-weight: normal;
   line-height: .6rem;
 }
+
+.wrap section .login ul li {
+  height: .8rem;
+  padding: .1rem .2rem;
+  margin: .6rem 0;
+  display: flex;
+  align-items: center;
+  border-bottom: solid #ccc .02rem;
+}
+
+.wrap section .login ul li span {
+  width: .4rem;
+}
+
+.wrap section .login ul li span img {
+  width: 100%;
+}
+
+.wrap section .login ul li input {
+  border: none;
+  outline: none;
+  padding-left: .2rem;
+}
+
+.wrap section .login .btn {
+  display: block;
+  height: 1rem;
+  line-height: 1rem;
+  background: #2FBA77;
+  color: #fff;
+  text-align: center;
+  border-radius: .1rem;
+}
